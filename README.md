@@ -1,5 +1,4 @@
 # Front
-The front-end was made by folowing the ATOMIC DESIGN principles. The intention was to also do a login but is not possible due to time issues
 
 ## Dependencies
  - Node
