@@ -1,0 +1,22 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.dropdown-menu-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+    .dropdown-menu-item {
+        display: flex;
+        font-family: Mada-Bold;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.1px;
+        color: $white;
+        margin: 20px 0px;
+
+        .dropdown-item-icon {
+            margin-right: 12px;
+        }
+    }
+}

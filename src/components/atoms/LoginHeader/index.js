@@ -8,7 +8,6 @@ const LoginHeader = () => {
 return <div className="login-header-container">
    <div className="login-header-logo">
         <Link to="/home">
-            THE LOGO
         </Link>
    </div>
    {!isMobile &&
