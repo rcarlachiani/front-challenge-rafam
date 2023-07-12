@@ -5,18 +5,64 @@
     list-style: none;
     margin: 0px;
     padding: 0px;
+    height: 300px;
+    overflow-y: scroll;
 
     .dropdown-menu-item {
         display: flex;
-        font-family: Mada-Bold;
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 0.1px;
-        color: $white;
+        flex-direction: column;
         margin: 20px 0px;
+        cursor: pointer;
 
-        .dropdown-item-icon {
-            margin-right: 12px;
+        .dropdown-item-container {
+            display: flex;
+        
+            .dropdown-item-icon {
+                .svg-item-icon {
+                    transition: all 0.2s ease-in-out;
+                }
+            }
+
+            .dropdown-item-text {
+                font-family: Mada-Bold;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0.1px;
+                color: $white;
+                margin: 0px;
+            }
+        }
+
+        .dropdown-subMenu-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style: none;
+            margin: 10px 15px 0px 0px;
+            padding: 0px;
+            
+            .dropdown-subMenu-item {
+                display: flex;
+                align-items: center;
+                height: 40px;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+
+                &:hover {
+                    background-color: $transparentWhite;
+                }
+
+                .dropdown-subMenu-item-text {
+                    font-family: Mada-Regular;
+                    font-size: 14px;
+                    line-height: 21px;
+                    letter-spacing: 0.1px;
+                    color: $white;
+                    margin: 0px;
+                    padding-left: 15px;
+                }
+            }
         }
     }
 }
