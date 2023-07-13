@@ -1,0 +1,120 @@
+[
+    {
+        "key": "card1",
+        "title": "Nuevo Ejercicio",
+        "subtitle": "Generar el nuevo Ejercicio fiscal para formular el Presupuesto.",
+        "subitems": []
+    },
+    {
+        "key": "card2",
+        "title": "Anteproyecto",
+        "subtitle": "Administrar la información de Anteproyectos.",
+        "subitems": []
+    },
+    {
+        "key": "card3",
+        "title": "Clasificadores Primarios",
+        "subtitle": "Administrar la información de los Clasificadores Primarios.",
+        "subitems": [
+            {
+                "key": "Card3Subitem1",
+                "title": "Clasificador Institucional"
+            },
+            {
+                "key": "Card3Subitem2",
+                "title": "Estructura Programática"
+            },
+            {
+                "key": "Card3Subitem3",
+                "title": "Recursos por Rubro"
+            },
+            {
+                "key": "Card3Subitem4",
+                "title": "Gastos por Objeto"
+            },
+            {
+                "key": "Card3Subitem5",
+                "title": "Fuentes de Financiamiento"
+            }
+        ]
+    },
+    {
+        "key": "card4",
+        "title": "Clasificadores Agregados",
+        "subtitle": "Administrar la información de los Clasificadores Agregados.",
+        "subitems": [
+            {
+                "key": "Card4Subitem1",
+                "title": "Recursos por Origen y Procedencia"
+            },
+            {
+                "key": "Card4Subitem2",
+                "title": "Recursos por Carácter Económico"
+            },
+            {
+                "key": "Card4Subitem3",
+                "title": "Gastos por Finalidad y Función"
+            },
+            {
+                "key": "Card4Subitem4",
+                "title": "Gastos por Carácter Económico"
+            }
+        ]
+    },
+    {
+        "key": "card5",
+        "title": "Reglas Presupuestarias",
+        "subtitle": "Administrar la información de Reglas Presupuestarias para la etapa de Formulación y Programación.",
+        "subitems": []
+    },
+    {
+        "key": "card6",
+        "title": "Categorías Programáticas",
+        "subtitle": "Administrar la información de las Categorías Programáticas.",
+        "subitems": []
+    },
+    {
+        "key": "card7",
+        "title": "Unidades Ejecutroras",
+        "subtitle": "Administrar la información de las Unidades Ejecutoras.",
+        "subitems": []
+    },
+    {
+        "key": "card8",
+        "title": "Causas de Desvíos",
+        "subtitle": "Administrar la información de las Causas Operativas, Financieras y conclusiones.",
+        "subitems": [
+            {
+                "key": "Card8Subitem1",
+                "title": "Financieras"
+            },
+            {
+                "key": "Card8Subitem2",
+                "title": "Operativas"
+            },
+            {
+                "key": "Card8Subitem3",
+                "title": "Conclusiones"
+            }
+        ]
+    },
+    {
+        "key": "card9",
+        "title": "Tablas Referenciales",
+        "subtitle": "Administrar la información de las Tablas Referenciales del Módulo Presupuesto.",
+        "subitems": [
+            {
+                "key": "Card9Subitem1",
+                "title": "Unidades de Medida"
+            },
+            {
+                "key": "Card9Subitem2",
+                "title": "Gastos Prioritarios"
+            },
+            {
+                "key": "Card9Subitem3",
+                "title": "Motivos Reglas Presupuestarias"
+            }
+        ]
+    }
+]

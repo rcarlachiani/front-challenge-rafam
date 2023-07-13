@@ -1,0 +1,25 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.card-section-container {
+    display: flex;
+    margin: 15px 0px 0px 0px;
+
+    .card-column-container {
+        display: grid;
+        grid-auto-rows: min-content;
+        row-gap: 5px;
+    }
+
+    .column-left {
+        padding: 0px 15px 0px 0px;
+
+        @media screen and (min-width: 1200px) {
+            padding: 0px 60px 0px 20px;
+        }
+    
+        @media screen and (min-width: 1600px) {
+            padding: 0px 140px;
+        }
+    }
+}

@@ -29,15 +29,18 @@ main>div {
     max-height: 100%;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
+.menu-items-container {
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+      
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+      
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 2px;
+    }
 }
 
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 2px;
-}
