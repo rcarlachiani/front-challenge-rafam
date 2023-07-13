@@ -5,7 +5,7 @@
     list-style: none;
     margin: 0px;
     padding: 0px;
-    height: 300px;
+    height: 60vh;
     overflow-y: scroll;
 
     .dropdown-menu-item {
@@ -24,7 +24,7 @@
             }
 
             .dropdown-item-text {
-                font-family: Mada-Bold;
+                font-family: Mada-Medium;
                 font-size: 18px;
                 line-height: 21px;
                 letter-spacing: 0.1px;
@@ -54,7 +54,7 @@
                 }
 
                 .dropdown-subMenu-item-text {
-                    font-family: Mada-Regular;
+                    font-family: Mada-Light;
                     font-size: 14px;
                     line-height: 21px;
                     letter-spacing: 0.1px;
@@ -64,5 +64,10 @@
                 }
             }
         }
+    }
+
+    @media (min-width: 1080px) {
+        height: 60vh;
+        overflow-y: scroll;
     }
 }

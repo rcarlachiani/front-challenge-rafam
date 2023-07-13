@@ -1,0 +1,21 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.forecast-container {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+
+    .forecast-min-max {
+        display: flex;
+        align-items: center;
+
+        .forecast-text {
+            font-family: Mada-Regular;
+            font-size: 16px;
+            margin: 0px 0px 0px 5px;
+            padding: 0px;
+        }
+    }
+}

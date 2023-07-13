@@ -1,0 +1,56 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.bottom-header-container {
+    display: flex;
+    height: 52px;
+    min-height: 52px;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+
+    .bottom-header-title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 30%;
+
+        .bottom-header-text {
+            font-family: Mada-Regular;
+            font-size: 12px;
+            line-height: 15.6px;
+            padding: 0px;
+            margin: 0px;
+            color: $grayFont;
+            cursor: pointer;
+        }
+
+        .text-selected {
+            font-family: Mada-Medium;
+            color: $lightGreen;
+        }
+
+        .bottom-header-arrow {
+            display: flex;
+            margin: 0px 14px
+        }
+    }
+
+    .bottom-header-buttons-container {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .bottom-header-buttons-text {
+            font-family: Mada-Medium;
+            font-size: 16px;
+            line-height: 20.8px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+}

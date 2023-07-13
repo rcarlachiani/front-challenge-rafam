@@ -1,22 +1,17 @@
-import React from "react";
-
+import React from 'react';
 import MainLayout from 'components/organisms/MainLayout';
-import InfiniteScroll from 'components/molecules/InfiniteScroll';
+import './styles.scss';
+import CardSection from 'components/molecules/CardSection';
 
-import "./styles.scss";
-
-const List = ({ elements, title, hasMore, fetchMoreData, showLinks }) => {
-    return <MainLayout>
-        <div className="community-list-header">
-            <h1>{title}</h1>
-        </div>
-        {elements && <InfiniteScroll elements={elements} hasMore={hasMore} fetchMoreData={fetchMoreData} showLinks={showLinks}/>}
+const List = ({ handleLogout }) => {
+  return (
+    <MainLayout handleLogout={handleLogout}> 
+      <div className='right-layout-list-header'>
+        <h1>Configuración</h1>
+      </div>
+      <CardSection />
     </MainLayout>
-}
+  );
+};
 
 export default List;
-
-
-
-
-

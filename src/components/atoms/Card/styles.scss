@@ -1,0 +1,55 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.card-container {
+    display: flex;
+    width: 528px;
+    height: 100%;
+    min-height: 98px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    border-radius: 0px 10px 10px 0px;
+    background-color: $white;
+
+    .card-border-left {
+        background-color: $blueRafam;
+        width: 8px;
+        height: inherit;
+    }
+
+    .card-content-container {
+        padding: 18px 0px 5px 20px;
+
+        .card-title {
+            font-family: Mada-Medium;
+            font-size: 24px;
+            line-height: 34px;
+            color: $blueRafam;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .card-subtitle {
+            font-family: Mada-Regular;
+            font-size: 12px;
+            line-height: 15.55px;
+            color: $grayFont;
+            margin: 15px 0px;
+            padding: 0px;
+        }
+
+        .card-item-list {
+            font-family: Mada-Regular;
+            font-size: 16px;
+            line-height: 20.74px;
+            color: $blueRafam;
+            list-style: none;
+            padding: 0px 0px 0px 6px;
+            margin: 0px
+        }
+
+        .card-item-sublist {
+            margin: 20px 0px;
+            cursor: pointer;
+        }
+    }
+}

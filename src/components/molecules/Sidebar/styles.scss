@@ -16,23 +16,24 @@
     .credits-text-container {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       margin-top: 20px;
-      padding-bottom: 10px;
+      padding-bottom: 8px;
       border-bottom: 1px solid $lightGrey;
       width: 100%;
 
       .credits-text {
-        color: #FFFFFF;
+        font-family: Mada-Light;
+        color: $white;
         padding: 0px;
-        margin: 2px 0px;
+        margin: 0px 0px 0px 25px;
         font-size: 13px;
         line-height: 21px;
       }
     }
 
     .sidebar-logo-container {
-      margin: 40px 0px 0px 25px;
+      margin: 45px 0px 0px 25px;
     }
 
     .menu-items-container {
