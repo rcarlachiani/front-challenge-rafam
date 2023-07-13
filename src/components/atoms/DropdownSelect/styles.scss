@@ -1,0 +1,19 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.dropdown-select {
+    width: 64px;
+    height: 24px;
+    background-position: right 0.2rem center;
+    padding: 0 0 0 .55rem;
+    border-color: $yearSelect;
+    color: $yearSelect;
+    font-family: Mada-Regular;
+    font-size: 12px;
+    line-height: 15.55px;
+
+    &:focus {
+        box-shadow: none !important;
+        border-color: $yearSelect !important;
+    }
+}

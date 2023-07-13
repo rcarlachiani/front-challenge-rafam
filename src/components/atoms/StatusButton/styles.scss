@@ -1,0 +1,28 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.status-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 24px;
+    background-color: $green;
+    border-color: $green;
+    font-family: Mada-Medium;
+    font-size: 14px;
+    line-height: 16px;
+    color: $statusButtonText;
+    padding: 0px;
+    margin: 0px;
+
+    &:hover {
+        background-color: $green;
+        border-color: $green;
+        color: $statusButtonText;
+    }
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}

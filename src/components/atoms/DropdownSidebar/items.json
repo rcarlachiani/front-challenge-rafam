@@ -1,0 +1,180 @@
+[
+    {
+        "key": "item1",
+        "title": "Presupuesto",
+        "subitems": [
+            {
+                "key": "PresSubItem1",
+                "title": "Configuración"
+            },
+            {
+                "key": "PresSubItem2",
+                "title": "Formulación presupuestaria"
+            },
+            {
+                "key": "PresSubItem3",
+                "title": "Modificación presupuestaria"
+            },
+            {
+                "key": "PresSubItem4",
+                "title": "Programación Física"
+            },
+            {
+                "key": "PresSubItem5",
+                "title": "Reportes"
+            }
+        ]
+    },
+    {
+        "key": "item2",
+        "title": "CAS",
+        "subitems": [
+            {
+                "key": "CasSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "CasSubItem2",
+                "title": "Subitem 2"
+            },
+            {
+                "key": "CasSubItem3",
+                "title": "Subitem 3"
+            }
+        ]
+    },
+    {
+        "key": "item3",
+        "title": "Planifiación",
+        "subitems": [
+            {
+                "key": "PlanSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "PlanSubItem2",
+                "title": "Subitem 2"
+            },
+            {
+                "key": "PlanSubItem3",
+                "title": "Subitem 3"
+            }
+        ]
+    },
+    {
+        "key": "item4",
+        "title": "Contrataciones",
+        "subitems": [
+            {
+                "key": "ContratSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "ContratSubItem2",
+                "title": "Subitem 2"
+            },
+            {
+                "key": "ContratSubItem3",
+                "title": "Subitem 3"
+            }
+        ]
+    },
+    {
+        "key": "item5",
+        "title": "Portal",
+        "subitems": [
+            {
+                "key": "PortSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "PortSubItem2",
+                "title": "Subitem 2"
+            }
+        ]
+    },
+    {
+        "key": "item6",
+        "title": "Contabilidad",
+        "subitems": [
+            {
+                "key": "ContSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "ContSubItem2",
+                "title": "Subitem 2"
+            }
+        ]
+    },
+    {
+        "key": "item7",
+        "title": "Tesorería",
+        "subitems": [
+            {
+                "key": "TesSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "TesSubItem2",
+                "title": "Subitem 2"
+            }
+        ]
+    },
+    {
+        "key": "item8",
+        "title": "Bienes Físicos",
+        "subitems": [
+            {
+                "key": "BienSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "BienSubItem2",
+                "title": "Subitem 2"
+            }
+        ]
+    },
+    {
+        "key": "item9",
+        "title": "Inversión Pública",
+        "subitems": [
+            {
+                "key": "InvSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "InvSubItem2",
+                "title": "Subitem 2"
+            }
+        ]
+    },
+    {
+        "key": "item10",
+        "title": "Crédito Público",
+        "subitems": [
+            {
+                "key": "CredSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "CredSubItem2",
+                "title": "Subitem 2"
+            }
+        ]
+    },
+    {
+        "key": "item11",
+        "title": "Recursos Humanos",
+        "subitems": [
+            {
+                "key": "RHSubItem1",
+                "title": "Subitem 1"
+            },
+            {
+                "key": "RHSubItem2",
+                "title": "Subitem 2"
+            }
+        ]
+    }
+]

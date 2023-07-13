@@ -4,6 +4,7 @@ import Sidebar from "components/molecules/Sidebar";
 import BaseHeader from "components/atoms/BaseHeader";
 
 import "./styles.scss";
+import BottomHeader from "components/atoms/BottomHeader";
 
 const MainLayout = ({ showHeader = true, children }) => {
     
@@ -12,7 +13,12 @@ const MainLayout = ({ showHeader = true, children }) => {
         </Sidebar>
         
         <div className='right-layout-container'>
-            {showHeader && <BaseHeader></BaseHeader>}
+            {showHeader && 
+                <>
+                    <BaseHeader/>
+                    <BottomHeader/>
+                </>
+            }
             <div className="right-layout-content" id="right-layout-content">
                 {children}
             </div>

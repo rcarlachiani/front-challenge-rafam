@@ -60,7 +60,7 @@ const UserListView = (props) => {
         }, 1500);
     };
 
-    return <List title={"Users"} elements={users} hasMore={hasMore} fetchMoreData={fetchMoreData} showLinks={true}></List>
+    return <List title={"Hola"} elements={users} hasMore={hasMore} fetchMoreData={fetchMoreData} showLinks={true}></List>
 }
 
 export default withTranslation()(UserListView);
