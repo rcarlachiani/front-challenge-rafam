@@ -33,7 +33,15 @@
     }
 
     .sidebar-logo-container {
-      margin: 45px 0px 0px 25px;
+      display: flex;
+      justify-content: center;
+      padding: 0px 15px;
+      margin: 45px 0px 0px 0px;
+
+      @media (min-width: 1400px) {
+        display: block;
+        margin: 45px 0px 0px 20px;
+    }
     }
 
     .menu-items-container {
