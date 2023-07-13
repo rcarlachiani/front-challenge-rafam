@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles.scss';
-import StatusButton from '../StatusButton';
+
 import DropdownSelect from '../DropdownSelect';
+import StatusIndicator from '../StatusIndicator';
 
 const BottomHeader = () => {
   return (
@@ -27,7 +28,7 @@ const BottomHeader = () => {
       <div className='bottom-header-buttons-container'>
         <p className='bottom-header-buttons-text'>Ejercicio</p>
         <DropdownSelect />
-        <StatusButton />
+        <StatusIndicator />
       </div>
     </div>
   );

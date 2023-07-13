@@ -14,9 +14,7 @@
 
     .base-header-title{
         display: flex;
-        flex-direction: row;
         align-items: center;
-        width: 30%;
 
         .base-header-text {
             font-family: Mada-Medium;
@@ -36,21 +34,24 @@
 
     .base-header-user{
         display: flex;
-        width: 30%;
         justify-content: flex-end;
     }
 
     .base-header-actions{
         display: flex;
+        align-items: center;
         cursor: pointer;
         
-        div {
-            color: #022040;
-            margin-left: 20px;
+        .base-header-actions-help,
+        .base-header-actions-notifications,
+        .base-header-actions-logout {
+            display: flex;
+            margin: 0px 0px 0px 20px;
         }
 
-        .base-header-actions-notifications{
-            position: relative;
+        .base-header-actions-search {
+            display: flex;
+            margin: 0px 0px 0px 25px;
         }
     }
 }

@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.scss';
+import Weather from '../Weather';
+import TransitionsModal from '../LogoutModal';
 
-const BaseHeader = () => {
+const BaseHeader = ({ handleLogout }) => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <div className='base-header-container'>
+      {showModal ? (
+        <TransitionsModal
+          handleLogout={handleLogout}
+          showModal={showModal}
+          setShowModal={setShowModal}
+        />
+      ) : null}
       <div className='base-header-title'>
         <p className='base-header-text'>Municipio</p>
         <div className='base-header-arrow'>
@@ -23,9 +34,12 @@ const BaseHeader = () => {
         <p className='base-header-text'>Organismo</p>
       </div>
       <div className='base-header-user'>
+        <div className='base-header-climate'>
+          <Weather />
+        </div>
         <div className='base-header-actions'>
           <div className='base-header-actions'>
-            <div className='base-header-actions-help'>
+            <div className='base-header-actions-search'>
               <svg
                 width='16'
                 height='16'
@@ -53,7 +67,7 @@ const BaseHeader = () => {
                 />
               </svg>
             </div>
-            <div className='base-header-actions-search'>
+            <div className='base-header-actions-help'>
               <svg
                 width='16'
                 height='16'
@@ -67,7 +81,10 @@ const BaseHeader = () => {
                 />
               </svg>
             </div>
-            <div className='base-header-actions-logout'>
+            <div
+              className='base-header-actions-logout'
+              onClick={() => setShowModal(!showModal)}
+            >
               <svg
                 width='32'
                 height='32'

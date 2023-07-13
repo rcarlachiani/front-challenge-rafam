@@ -3,11 +3,11 @@ import MainLayout from 'components/organisms/MainLayout';
 import './styles.scss';
 import CardSection from 'components/molecules/CardSection';
 
-const List = ({ title }) => {
+const List = ({ handleLogout }) => {
   return (
-    <MainLayout>
+    <MainLayout handleLogout={handleLogout}> 
       <div className='right-layout-list-header'>
-        <h1>{title}</h1>
+        <h1>Configuración</h1>
       </div>
       <CardSection />
     </MainLayout>
