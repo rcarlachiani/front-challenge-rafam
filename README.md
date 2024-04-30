@@ -1,4 +1,4 @@
-# Challenge Frontend RAFAM2 - Rodrigo Carlachiani
+# Challenge Frontend - Ministerio de Economía PBA
 
 ## Dependencies
  - Node
@@ -15,7 +15,6 @@
  - Edit package.json section "scripts"."start" with:
  `"start": "react-scripts start",`
  - Edit manually `src/environment.js`. Dont use `window._env_.REACT_APP_PRODUCTION`
- - DONT COMMIT CHANGES
 
 ## Dev Run 
  - npm run start
@@ -26,6 +25,3 @@
 
 ## Run test with Jest
  - npm test
-
-### Info
-https://github.com/kunokdev/cra-runtime-environment-variables
