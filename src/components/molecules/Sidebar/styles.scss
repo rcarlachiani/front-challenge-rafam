@@ -4,48 +4,27 @@
 .sidebar-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 242px;
   height: 100%;
   background-color: $blueRafam;
 
   .sidebar-main-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-
-    .credits-text-container {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-top: 20px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid $lightGrey;
-      width: 100%;
-
-      .credits-text {
-        font-family: Mada-Light;
-        color: $white;
-        padding: 0px;
-        margin: 0px 0px 0px 25px;
-        font-size: 13px;
-        line-height: 21px;
-      }
-    }
+    padding: 0px 20px 0px 20px;
+    gap: 60px;
 
     .sidebar-logo-container {
       display: flex;
       justify-content: center;
-      padding: 0px 15px;
-      margin: 45px 0px 0px 0px;
-
-      @media (min-width: 1400px) {
-        display: block;
-        margin: 45px 0px 0px 20px;
-    }
     }
 
     .menu-items-container {
-      margin: 35px 0px 0px 15px;
+        display: flex;
+        flex-direction: column; 
 
         .item-home {
           font-family: Mada-Bold;
@@ -55,34 +34,6 @@
           color: $white;
           padding-left: 25px;
         }
-    }
-  }
-
-  .sidebar-footer-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    max-height: 242px;
-    padding-top: 10px;
-    border-top: 1px solid $lightGrey;
-
-    .sidebar-footer {
-      display: flex;
-      margin-left: 15px;
-
-      .sidebar-footer-icon {
-        margin-right: 15px;
-      }
-
-      .sidebar-footer-text {
-        font-family: Mada-Regular;
-        font-size: 12px;
-        line-height: 21px;
-        letter-spacing: 0.1px;
-        color: $white;
-        margin: 0px;
-        padding: 0px;
-      }
     }
   }
 }
